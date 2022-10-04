@@ -1,0 +1,13 @@
+@import "./modules/_reset.scss";
+@import "./modules/_vars.scss";
+
+
+
+@import"./modules/_default.scss"; //mobile styles (these load first)
+
+// responsive style next
+@import"./modules/_queries.scss";
+
+//
+@import "./modules/_main.scss";
+
