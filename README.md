@@ -5,7 +5,7 @@ This is a single website page, and the objective is to create a JSON object with
 # Languages
 - HTML
 - SASS
--JavaScript
+- JavaScript
 # Installation
 
 - Installation is not needed.

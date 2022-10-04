@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Indie+Flower&family=Peralta&family=Permanent+Marker&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>My Favorite Things</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="user-name hidden">My Favorite Things - Games </h1>
+   </header>
+
+
+    <main class="main container">
+
+        <div class="arrow">
+            <h2>&#8595;</h2>
+        </div>
+        <section><h2> My Favortie Things - Games </h2></section>
+
+        <section class="team-section">
+            <!-- dynamic content get injected here -->
+        </section>
+    </main>
+
+    <!-- Templates don't get rendered, but their content will be -->
+    <template id="user-template">
+        <section>
+            <div>
+                <img src="" alt="prof image">
+            </div>
+
+            <h1  class="user-name" >my super awesome app</h1> 
+            <!-- <-- h1 child 1 -->
+            <article class="user-desc">
+                this is the article
+                <aside>
+                    some text here
+                </aside>
+            </article>
+        </section>
+    </template>
+
+
+    
+    <script src="js/main.js" defer type="module"></script>
+</body>
+</html>
