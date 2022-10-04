@@ -1,7 +1,17 @@
 @media screen and (min-width:768px) {
-    .team-section {
+    // .team-section {
+    //     display: grid;
+    //     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    // }
+
+    .container {
         display: flex;
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        display: -webkit-box;
+        display: -ms-flexbox;
+            -webkit-box-pack: center;
+               -ms-flex-pack: center;
+             justify-content: center; //browser that do not support flexbox
     }
    
+    
 }
