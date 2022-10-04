@@ -1,8 +1,8 @@
-# MY Favorite Things
+# My Favorite Things
 
 This is a single website page, and the objective is to create a JSON object with some properties and change the content with AJAX.
 
-#Languages
+# Languages
 - HTML
 - SASS
 -JavaScript
@@ -13,7 +13,7 @@ This is a single website page, and the objective is to create a JSON object with
 ## Usage
 You may:
 
-- Create an online animation with SVG . 
+- Create an interactive page . 
 
 ## Contributing 
 
