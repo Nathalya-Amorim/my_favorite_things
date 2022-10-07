@@ -3,17 +3,12 @@ main {
 
     background-color:$main-bg;
 
-    h2{ 
-        color:$main-colour;
-        font-size: $main-headings;
-        font-family: $font-style;
-        margin-top: 80px;
-    }
+         h1{ 
+            color:$main-colour;
+            font-size: $main-headings;
+            font-family: $font-style;
+            margin-top: 80px;
+        }
 
-    .arrow {
-        flex-direction: row;
-        align-items: flex-start;
-
-           }
 }
 

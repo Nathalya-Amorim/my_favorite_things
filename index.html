@@ -13,37 +13,39 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="user-name hidden">My Favorite Things - Games </h1>
-   </header>
-
-
     <main class="main container">
-
         <div class="arrow">
-            <h2>&#8595;</h2>
-        </div>
-        <section><h2> My Favortie Things - Games </h2></section>
+            <img src="./images/arrow2.svg">
+            <h2>scroll</h2>
+          </div>
+          <section>
+            <h2>Hi! My name is Nathalya Menezes,<br> Scroll to read my favorite things</h2>
+          </section>
 
-        <section class="team-section">
+        
+        <section><h1> My Three Favorite Things </h1></section>
+
+        <section class="things-section">
             <!-- dynamic content get injected here -->
         </section>
+
+        <section class="query-controls">
+            <!-- inject the category buttons -->
+        </section>
+
     </main>
 
     <!-- Templates don't get rendered, but their content will be -->
-    <template id="user-template">
+    <template id="things-template">
         <section>
             <div>
-                <img src="" alt="prof image">
+                <img src="" alt="favorite things images">
             </div>
 
-            <h1  class="user-name" >my super awesome app</h1> 
-            <!-- <-- h1 child 1 -->
-            <article class="user-desc">
+            <h2  class="fav-things" > My Favorite Things </h2> 
+            <!-- <-- h2 child 1 -->
+            <article class="things-desc">
                 this is the article
-                <aside>
-                    some text here
-                </aside>
             </article>
         </section>
     </template>
