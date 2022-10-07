@@ -1,0 +1,29 @@
+{"things": [ 
+  {
+    
+    "activity": {
+      "name":"Crossfit",
+      "description":"ola",
+      "start":"ola",
+      "image":"new_york.jpeg",
+      "id":"crossfit"
+    }
+  },
+  {
+    "activity":{
+      "name": "John",
+      "description":"John is 15 years old. He's shy and lazy. I love him because he is nice, sweet and never aggressive.",
+      "image":"my_cat.jpeg",
+      "id":"pet"
+    }
+  },
+  {
+    "activity":{
+      "name": "Game",
+      "description":"The player lives on an island, and she is responsible for decorations and inviting new villagers to live on the island",
+      "start":"All Tomb Raider Games, All Assassin's Creed games, All God of War Games and Animal Crossing",
+      "image":"mario_games.jpeg",
+      "id":"gaming"
+    }
+  }
+]}
