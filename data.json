@@ -3,26 +3,26 @@
     
     "activity": {
       "name":"Crossfit",
-      "description":"ola",
-      "start":"ola",
-      "image":"new_york.jpeg",
+      "description":"CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level.",
+      "start":"My first time practicing was on March 2019 ",
+      "image":"crossfit.jpg",
       "id":"crossfit"
     }
   },
   {
     "activity":{
       "name": "John",
-      "description":"John is 15 years old. He's shy and lazy. I love him because he is nice, sweet and never aggressive.",
-      "image":"my_cat.jpeg",
+      "description":"John my 15 years-old cat. He's shy and lazy. I love him because he is nice, sweet and a smart boy.",
+      "image":"my_cat.jpg",
       "id":"pet"
     }
   },
   {
     "activity":{
       "name": "Game",
-      "description":"The player lives on an island, and she is responsible for decorations and inviting new villagers to live on the island",
-      "start":"All Tomb Raider Games, All Assassin's Creed games, All God of War Games and Animal Crossing",
-      "image":"mario_games.jpeg",
+      "description":"Super Mario Bros is an amazing game. It makes me feel happy, excited and competitive. I love playing games because I forget all my problems.",
+      "start":"I played Super Mario Bros 25 years ago",
+      "image":"mario_games.jpg",
       "id":"gaming"
     }
   }

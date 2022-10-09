@@ -33,8 +33,8 @@ let theTemplate = document.querySelector("#things-template").content,
                 let panel = theTemplate.cloneNode(true), 
                 containers = panel.firstElementChild.children; 
 
-                containers[0].querySelector('img').src = 'images/' + thing.activity.image; 
-                containers[1].textContent = thing.activity.name;
+                containers[0].textContent = thing.activity.name;
+                containers[1].querySelector('img').src = 'images/' + thing.activity.image; 
                 containers[2].textContent = thing.activity.description;
 
                 theThings.appendChild(panel); 
@@ -42,8 +42,6 @@ let theTemplate = document.querySelector("#things-template").content,
         });
     }
 
-
-    
     getData("./data.json", addButtons);
 
 })();

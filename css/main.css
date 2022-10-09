@@ -45,38 +45,167 @@ input {
   border-radius: 0;
 }
 
+main {
+  background-color: #282C35;
+  color: #f5f5f5;
+}
+
 body {
   background-color: #282C35;
   color: #f5f5f5;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  #container {
     display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+  #container02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    margin-bottom: 80px;
   }
 }
 main {
-  display: flex;
   background-color: #282C35;
 }
-main h2 {
+main h1 {
   color: #f5f5f5;
   font-size: 4em;
   font-family: "Peralta", cursive;
   margin-top: 80px;
+  color: rgb(228, 74, 74);
 }
-main .arrow {
-  flex-direction: row;
-  align-items: flex-start;
+main .hidden {
+  display: none;
 }
 
-header .hidden h1 {
-  diplay: none;
+.header {
+  background-image: url(../images/maple03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 760px;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 25px;
+  font-family: "Peralta", cursive;
+}
+
+p {
+  font-size: 2em;
+}
+
+.borderColor {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+}
+
+.box01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-item01 {
+  padding: 25px;
+}
+
+.arrow {
+  z-index: 1;
+  margin-bottom: 50px;
+  width: 60px;
+  height: 30px;
+  font-size: 50px;
+  transform: scaleY(0.6);
+  animation-name: arrow;
+  animation-duration: 2s;
+  color: #f5f5f5;
+  animation-iteration-count: infinite;
+}
+
+.arrow h2 {
+  margin: 0;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+.box03 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.box04 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.box05 {
+  display: flex;
+}
+
+.catButton {
+  background-color: #FBFCF8;
+  padding: 10px;
+  border-radius: 20%;
+  height: 50px;
+  width: 90px;
+  font-family: "Peralta", cursive;
+}
+.catButton:hover {
+  color: #FBFCF8;
+  cursor: pointer;
+  background-color: rgb(228, 74, 74);
+  transform: scale(0.9);
+}
+
+.fav-things {
+  margin: 25px;
+}
+
+.center-img {
+  margin: auto;
+  display: block;
+  opacity: 0.3;
+}
+.center-img:hover {
+  opacity: 1;
+}
+
+.things-desc {
+  text-align: center;
+  width: 520px;
+  font-family: "Peralta", cursive;
+  font-size: 1.3em;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+.box03 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-around;
+
+}
+
+.box04 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    width:400px;
+    
+}
+
+.box05 {
+    display: flex;
+}
+
+.catButton {
+   background-color: #FBFCF8;
+   padding: 10px;
+   border-radius: 20%;
+   height: 50px;
+   width: 90px;
+   font-family: $font-style;
+
+   &:hover {
+    color: #FBFCF8;
+    cursor: pointer;
+    background-color: rgb(228, 74, 74);
+    transform:scale(.9);
+   }
+
+}
+
+.fav-things {
+    margin: 25px;
+    
+}
+
+.center-img {
+    margin: auto;
+    display: block;
+    opacity: 0.3;
+
+    &:hover {
+        opacity: 1.0;
+    }
+}
+
+
