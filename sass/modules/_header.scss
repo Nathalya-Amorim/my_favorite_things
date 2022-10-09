@@ -1,5 +1,76 @@
-header {
-
-   
+.header {
+    background-image: url(../images/maple03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 760px;
 
 }
+
+h2 {
+    font-size: $headingh2;
+    text-align: center;
+    margin: 25px;
+    font-family: $font-style;
+
+}
+
+p {
+    font-size: $paragraphs;
+}
+
+.borderColor {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+.box01 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.flex-item01 {
+    padding:25px;
+}
+
+.arrow {
+    z-index:1;
+    margin-bottom: 50px;
+    width:60px;
+    height:30px;
+    font-size: 50px;
+    transform: scaleY(0.6);
+    animation-name: arrow;
+    animation-duration: 2s;
+    color: #f5f5f5;
+    animation-iteration-count: infinite;
+}
+
+.arrow h2 {
+    margin: 0 ; 
+}
+
+@keyframes arrow {
+    0% {
+        opacity:0.1;
+       
+    }
+    50% {
+        opacity:0.8;
+        
+    }
+    80% {
+        opacity:0.8;
+       
+    }
+    100% {
+        opacity:0.1;
+        
+    }
+}
+
+
+

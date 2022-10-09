@@ -12,43 +12,52 @@
     <title>My Favorite Things</title>
 </head>
 
-<body>
-    <main class="main container">
-        <div class="arrow">
-            <img src="./images/arrow2.svg">
-            <h2>scroll</h2>
-          </div>
-          <section>
-            <h2>Hi! My name is Nathalya Menezes,<br> Scroll to read my favorite things</h2>
-          </section>
+<body id="container">
 
-        
-        <section><h1> My Three Favorite Things </h1></section>
+    <main>
 
-        <section class="things-section">
-            <!-- dynamic content get injected here -->
+        <section class="header box01">
+            <section class="borderColor">
+                <p>Hi There! &nbsp; My name is Nathalya Menezes</p>
+            </section>
+            <div class="arrow box02 flex-item01">
+                <h2>&#8595</h2>
+            </div>
+            
+
         </section>
 
-        <section class="query-controls">
-            <!-- inject the category buttons -->
-        </section>
+
+        <section id="container02">
+            <section><h1> My Three Favorite Things </h1></section>
+
+            <section class="things-section box03">
+                <!-- dynamic content get injected here -->
+            </section>
+
+            <section class="query-controls box04">
+                <!-- inject the category buttons -->
+            </section>
+       </section>
 
     </main>
-
+<div class="reveal">
     <!-- Templates don't get rendered, but their content will be -->
-    <template id="things-template">
+    <template id="things-template" class="box05">
         <section>
-            <div>
-                <img src="" alt="favorite things images">
-            </div>
+            
+            <h2  class="fav-things" > My Favorite Things </h2>
 
-            <h2  class="fav-things" > My Favorite Things </h2> 
+            <div>
+                <img class="center-img" src="" alt="favorite things images">
+            </div>
             <!-- <-- h2 child 1 -->
             <article class="things-desc">
                 this is the article
             </article>
         </section>
     </template>
+</div>
 
 
     

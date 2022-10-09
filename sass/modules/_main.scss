@@ -1,5 +1,4 @@
 main {
-    display: flex;
 
     background-color:$main-bg;
 
@@ -8,7 +7,12 @@ main {
             font-size: $main-headings;
             font-family: $font-style;
             margin-top: 80px;
+            color:$secondary-color;
         }
 
+
+        .hidden {
+            display:none
+        }
 }
 

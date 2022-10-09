@@ -1,17 +1,24 @@
 @media screen and (min-width:768px) {
-    // .team-section {
+    // .things-section {
     //     display: grid;
     //     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     // }
 
-    .container {
+    #container {
         display: flex;
-        display: -webkit-box;
-        display: -ms-flexbox;
-            -webkit-box-pack: center;
-               -ms-flex-pack: center;
-             justify-content: center; //browser that do not support flexbox
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 auto;
     }
-   
-    
-}
+
+    #container02 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 700px;
+        margin-bottom: 80px;
+    }
+
+
+    }
