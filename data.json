@@ -3,8 +3,8 @@
     
     "activity": {
       "name":"Crossfit",
-      "description":"CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level.",
-      "start":"My first time practicing was on March 2019 ",
+      "description":"Crossfit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level.When I am doing Crossfit I feel strong and overcome my limits.  ",
+      "start":"My first time practicing was on March 2019. ",
       "image":"crossfit.jpg",
       "id":"crossfit"
     }
@@ -12,7 +12,7 @@
   {
     "activity":{
       "name": "John",
-      "description":"John my 15 years-old cat. He's shy and lazy. I love him because he is nice, sweet and a smart boy.",
+      "description":"John is my 15 years-old cat. He's shy and lazy. I love him because he is nice, sweet and a smart boy.",
       "image":"my_cat.jpg",
       "id":"pet"
     }
@@ -21,7 +21,7 @@
     "activity":{
       "name": "Game",
       "description":"Super Mario Bros is an amazing game. It makes me feel happy, excited and competitive. I love playing games because I forget all my problems.",
-      "start":"I played Super Mario Bros 25 years ago",
+      "start":"I played Super Mario Bros for the first time 25 years ago.",
       "image":"mario_games.jpg",
       "id":"gaming"
     }

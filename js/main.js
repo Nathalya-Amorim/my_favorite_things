@@ -36,6 +36,7 @@ let theTemplate = document.querySelector("#things-template").content,
                 containers[0].textContent = thing.activity.name;
                 containers[1].querySelector('img').src = 'images/' + thing.activity.image; 
                 containers[2].textContent = thing.activity.description;
+                containers[3].textContent = thing.activity.start;
 
                 theThings.appendChild(panel); 
             }
