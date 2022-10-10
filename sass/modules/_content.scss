@@ -24,31 +24,44 @@
    background-color: #FBFCF8;
    padding: 10px;
    border-radius: 20%;
-   height: 50px;
-   width: 90px;
-   font-family: $font-style;
+   height: 67px;
+   width: 120px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 1.2em;
 
    &:hover {
     color: #FBFCF8;
     cursor: pointer;
     background-color: rgb(228, 74, 74);
-    transform:scale(.9);
+    transform:scale(1.1);
    }
 
 }
 
 .fav-things {
     margin: 25px;
-    
 }
 
 .center-img {
     margin: auto;
     display: block;
-    opacity: 0.3;
+}
 
-    &:hover {
-        opacity: 1.0;
+.fav-thing-content {
+    animation-name: fav-content-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fav-content-animation {
+    from { 
+        margin-left: -3000px;
+        opacity: 0.0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
     }
 }
 
